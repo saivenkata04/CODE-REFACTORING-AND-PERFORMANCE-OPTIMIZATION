@@ -1,0 +1,22 @@
+{
+  "name": "logflow-refactoring-optimization",
+  "version": "1.0.0",
+  "description": "Code Refactoring and Performance Optimization - Task 4 Deliverable",
+  "main": "refactored_code/index.js",
+  "scripts": {
+    "generate-data": "node data/generate_dataset.js",
+    "test": "node tests/parity.test.js",
+    "benchmark": "node benchmarks/run_benchmarks.js",
+    "start:legacy": "node original_code/logflow_legacy.js",
+    "start:optimized": "node refactored_code/index.js"
+  },
+  "keywords": [
+    "refactoring",
+    "performance-optimization",
+    "benchmarking",
+    "clean-code",
+    "algorithmic-complexity"
+  ],
+  "author": "ELITE Tech Intern",
+  "license": "MIT"
+}

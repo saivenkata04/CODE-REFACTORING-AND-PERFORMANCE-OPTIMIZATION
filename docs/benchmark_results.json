@@ -1,0 +1,59 @@
+[
+  {
+    "dataset": "Small Dataset (1,000 records)",
+    "recordCount": 1000,
+    "legacy": {
+      "timeMs": 14.59,
+      "memoryMb": 0.58,
+      "throughput": 68528
+    },
+    "optimized": {
+      "timeMs": 1.65,
+      "memoryMb": 1.11,
+      "throughput": 605180
+    },
+    "comparison": {
+      "speedupMultiplier": "8.8x",
+      "timeReductionPercent": "88.7%",
+      "memorySavedMb": "-0.53 MB"
+    }
+  },
+  {
+    "dataset": "Medium Dataset (5,000 records)",
+    "recordCount": 5000,
+    "legacy": {
+      "timeMs": 224,
+      "memoryMb": 1.85,
+      "throughput": 22321
+    },
+    "optimized": {
+      "timeMs": 2.46,
+      "memoryMb": 2.08,
+      "throughput": 2028480
+    },
+    "comparison": {
+      "speedupMultiplier": "91.1x",
+      "timeReductionPercent": "98.9%",
+      "memorySavedMb": "-0.23 MB"
+    }
+  },
+  {
+    "dataset": "Large Dataset (25,000 records)",
+    "recordCount": 25000,
+    "legacy": {
+      "timeMs": 6912.91,
+      "memoryMb": 14.52,
+      "throughput": 3616
+    },
+    "optimized": {
+      "timeMs": 11.87,
+      "memoryMb": 6.79,
+      "throughput": 2107038
+    },
+    "comparison": {
+      "speedupMultiplier": "582.4x",
+      "timeReductionPercent": "99.8%",
+      "memorySavedMb": "7.73 MB"
+    }
+  }
+]
